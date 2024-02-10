@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Highlighter/ searchbar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link href="highlight.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="highlight-container">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="text-to-search"
+          placeholder="Enter text to search.."
+        />
+        <button onclick="highlightText()">Search</button>
+      </div>
+      <p class="content" id="paragraph">
+        India, a diverse and vibrant nation, is renowned for its rich history,
+        cultural tapestry, and economic dynamism. Boasting a mosaic of
+        languages, religions, and traditions, India is a melting pot of
+        diversity. With a heritage that spans thousands of years, the country
+        has witnessed the rise and fall of empires, contributing significantly
+        to global civilization.
+      </p>
+    </div>
+    <script src="highlight.js"></script>
+  </body>
+</html>
